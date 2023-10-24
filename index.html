@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komal's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eaf4f7;
+    }
+
+    header {
+      background-color: #c2f6b2;
+      color: #0f0e0e;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .project {
+      background-color: #ffffff;
+      margin-bottom: 2rem;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 5px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    .review {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .profile-image {
+      display: block;
+      max-width: 200px;
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 50%;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1rem;
+    }
+
+    /* Custom Review Styling */
+    .review p {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .review p.author {
+      color: #888;
+    }
+
+    /* Social Links Styling */
+    .social-links {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .social-links a {
+      font-size: 24px;
+      color: #333;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .social-links a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+
+<body>
+    <header>
+    <h1>Lakshmi's Portfolio</h1>
+    <p>Welcome to my portfolio website. Explore my projects and reviews below.</p>
+    <div class="social-links">
+      <a href="www.linkedin.com/in/lakshmir19" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/lakshmir2023" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container"> 
+        <img src="https://my-tf-s3-bucket-2023.s3.ap-south-1.amazonaws.com/my-profile.jpeg" alt="My Profile Image" class="profile-image">
+      </div>
+
+            <h2>About Me</h2>
+            <p>Hi there! I'm Lakshmi R, a Software Engineer at HCLTech with a passion for driving impactful solutions.</p>
+            <p>I like exploring new opportunities and contributing my expertise to innovative projects.</p>
+            <p> Let's connect and explore how we can achieve great things together!</p>
+
+            <h2 class="Projects"></h2>
+            <div class="project-card">
+              <h3>Project: cloud_native_monitoring_app</h3>
+              <p>Implemented a real-time python flask app on k8s, utilizing docker container and amazon EKS</p>
+            </div>
+            <div class="project-card">
+              <h3>Project: Implemented Three Tier Architecture — Terraform</h3>
+              <p>Implemented a three tier Architecture that is highly available and scalable using Terraform and deployed the application on Ec2 Instances using the User Data script.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project: Cloud Cost Optimization — AWS</h3>
+                <p>Used the combination of AWS cloud watch and Lambda functions. To decrease the cloud cost by 25 percent.</p>
+              </div>
+
+            <div class="vibrant-box">
+              <h2>Contact Me</h2>
+              <p>If you have any questions, collaboration opportunities, or just want to say hello, feel free to reach out to me:</p>
+              <ul>
+                <li>Email: maha1982002@gmail.com</li>
+                <li>LinkedIn: <a href="www.linkedin.com/in/lakshmir19" target="_blank">My LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/lakshmir2023" target="_blank">My GitHub Profile</a></li>
+              </ul>
+            </div>
+          </div>
+        </main>
+      
+
+    </div>
+  </main>
+</body>
+
+</html>
